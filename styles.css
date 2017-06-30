@@ -59,7 +59,11 @@ img:hover {
 		height: 300px;
 		margin-left: 20%;
 		margin-bottom: 20%;
-		display: inline-block;
+	}
+	header {
+		margin-bottom: 10%;
+		display: block;
+		font-size: 35px;
 	}
 }
 
@@ -69,6 +73,10 @@ img:hover {
 		height: 200px;
 		margin-left: 20%;
 		margin-bottom: 20%;
-		display: inline-block;
+	}
+	header {
+		margin-bottom: 10%;
+		display: block;
+		height: 100px;
 	}
 }
