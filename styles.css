@@ -5,8 +5,10 @@ html, body {
 
 .topname {
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+	font-size: 30px;
 	margin: 10px;
+    border-style: solid;
+    display: inline-flex;
 }
 
 header {
@@ -82,6 +84,11 @@ img:hover {
 		display: block;
 		font-size: 35px;
 	}
+    .topname {
+        border-style: none;
+        display: inline-flex;
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,4 +103,9 @@ img:hover {
 		display: block;
 		height: 100px;
 	}
+    .topname {
+        border-style: none;
+        display: inline-flex;
+        font-size: 15px;
+    }
 }
